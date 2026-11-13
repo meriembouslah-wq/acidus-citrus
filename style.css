@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+
+header {
+    background-color: #102c50;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #80bfff;
+}
+
+/* Main interface */
+
+.hero {
+    background-color: #193d65;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: #9ccfff;
+    margin-bottom: 15px;
+}
+
+/* Sections */
+
+section:not(.hero) {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #102c50;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #555;
+    font-size: 17px;
+}
